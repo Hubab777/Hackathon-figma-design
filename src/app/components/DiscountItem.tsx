@@ -15,7 +15,7 @@ function Discountitem() {
           <li className="text-[#111C85]">Sofa Collection</li>
         </div>
         
-        <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center justify-center text-center min-h-screen">
+        <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center justify-center text-center min-h-screen place-items-center">
           <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
             <h1 className="title-font sm:text-4xl text-3xl mb-4 font-bold text-center text-[#111C85]">
               20% Discount Of All Products
