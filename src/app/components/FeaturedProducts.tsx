@@ -25,7 +25,7 @@ const FeaturedProducts = () => {
             <img
               src="/fp-4.png"
               alt="Product 1"
-              className="w-full h-48 object-cover bg-gray-100 mb-3"
+              className="w-full h-48 md:h-60 object-contain bg-gray-100 mb-3"
             />
             <h3 className="text-lg font-semibold mb-2 text-pink-500">Cantilever chair</h3>
             <p className="text-sm text-[#111C58]">Code - Y523201</p>
@@ -37,7 +37,7 @@ const FeaturedProducts = () => {
             <img
               src="/fp-2.png"
               alt="Product 2"
-              className="w-full h-48 object-cover bg-gray-100 mb-3"
+              className="w-full h-48 md:h-60 object-contain bg-gray-100 mb-3"
             />
             <div className='bg-blue-800'>
             <h3 className="text-lg font-semibold mb-2 text-white">Cantilever chair</h3>
@@ -51,7 +51,7 @@ const FeaturedProducts = () => {
             <img
               src="/fp-3.png"
               alt="Product 3"
-              className="w-full h-48 object-cover bg-gray-100 mb-3"
+              className="w-full h-48 md:h-60 object-contain bg-gray-100 mb-3"
             />
             <h3 className="text-lg font-semibold mb-2 text-pink-500">Cantilever chair</h3>
             <p className="text-sm text-[#111C58]">Code - Y523201</p>
@@ -63,7 +63,7 @@ const FeaturedProducts = () => {
             <img
               src="/fp-4.png"
               alt="Product 4"
-              className="w-full h-48 bg-gray-100 object-cover mb-3"
+              className="w-full h-48 bg-gray-100 md:h-60 object-contain mb-3"
             />
             <h3 className="text-lg font-semibold mb-2 text-pink-500">Cantilever chair</h3>
             <p className="text-sm text-[#111C58]">Code - Y523201</p>
