@@ -3,7 +3,7 @@ import Image from "next/image";
 
 function ErrorPage() {
   return (
-    <div>
+    <div className="justify-center items-center md: place-items-center wrapper">
       
       <div className="flex flex-col items-center justify-center min-h-screen">
         <Image
