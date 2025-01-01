@@ -7,6 +7,7 @@ import TrendingProducts from './components/TrendingProducts';
 import UniqueFeature from './components/UniqueFeature';
 import Services from './components/Services';
 import CategoryItems from './components/CategoryItems';
+import Blog from './components/Blog';
 
 const page = () => {
   return (
@@ -19,7 +20,7 @@ const page = () => {
       <TrendingProducts />
       <Discountitem />
       <CategoryItems />
-      
+      <Blog />
     </div>
   )
 }
