@@ -75,7 +75,7 @@ function LatestProduct() {
                 <img
                   src={product.img}
                   alt={product.name}
-                  className="rounded-lg w-full h-64 object-cover bg-gray-100 mb-4"
+                  className="rounded-lg w-full h-64 object-contain bg-gray-100 mb-4"
                 />
                 <h2 className="text-[#151875] font-medium text-base sm:text-lg mb-2">
                   {product.name}
