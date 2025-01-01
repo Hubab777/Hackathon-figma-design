@@ -118,22 +118,3 @@ export default function Home() {
   );
 }
 
-// Newsletter section
-// <section className="py-16 bg-gray-50 relative">
-//         <div className="max-w-4xl mx-auto text-center">
-//           <h2 className="text-2xl font-bold text-[#151875] mb-4">
-//             Get Latest Update By Subscribe Our Newsletter
-//           </h2>
-//           <button className="bg-pink-500 text-white text-lg font-medium px-6 py-2 rounded-lg hover:bg-pink-600 transition">
-//             Shop Now
-//           </button>
-//         </div>
-//         <div className="absolute inset-0 opacity-50">
-//           <Image
-//             src="/background-image.png" // Replace with your background image
-//             alt="Newsletter Background"
-//             fill
-//             className="object-cover"
-//           />
-//         </div>
-//       </section>
