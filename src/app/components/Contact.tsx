@@ -3,11 +3,11 @@ import React from "react";
 
 const Contact: React.FC = () => {
   return (
-    <div className="bg-gray-50 text-gray-800 wrapper">
+    <div className="bg-gray-50 text-[#111C85] wrapper">
       {/* Header Section */}
       <header className="text-center py-8 bg-purple-100">
-        <h1 className="text-4xl font-bold text-left pl-20">Contact Us</h1>
-        <p className="text-sm text-gray-600 mt-2 text-left pl-20">Home / Pages / Contact</p>
+        <h1 className="text-4xl font-bold text-left text-[#111C85] pl-20">Contact Us</h1>
+        <p className="text-sm text-gray-600 mt-2 text-left pl-20">Home .Pages <span className="text-pink-500">.Contact</span></p>
       </header>
 
       {/* Main Section */}
@@ -15,7 +15,7 @@ const Contact: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
           {/* Left Column */}
           <div>
-            <h2 className="text-2xl font-semibold mb-6">Information About Us</h2>
+            <h2 className="text-2xl font-semibold text-[#111C85] mb-6">Information About Us</h2>
             <p className="text-gray-600 leading-relaxed mb-6">
               Learn more about our services and how we can help. We’re always
               here to answer your questions and provide the best solutions for
@@ -30,7 +30,7 @@ const Contact: React.FC = () => {
 
           {/* Right Column */}
           <div>
-            <h2 className="text-2xl font-semibold mb-6">Contact Way</h2>
+            <h2 className="text-2xl font-semibold text-[#111C85] mb-6">Contact Way</h2>
             <ul className="grid grid-cols-1 sm:grid-cols-2 gap-8">
               <li className="flex items-center">
                 <span className="w-10 h-10 flex items-center justify-center bg-blue-800 text-white rounded-full mr-4">
@@ -75,7 +75,7 @@ const Contact: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mt-16">
           {/* Contact Form */}
           <div>
-            <h2 className="text-2xl font-semibold mb-6">Get In Touch</h2>
+            <h2 className="text-2xl font-semibold text-[#111C85] mb-6">Get In Touch</h2>
             <p className="text-gray-600 leading-relaxed mb-6">
               Feel free to drop us a line or send us an email. We’d love to hear
               from you and will respond as quickly as possible.
