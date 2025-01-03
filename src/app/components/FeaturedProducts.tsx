@@ -23,7 +23,7 @@ const FeaturedProducts = () => {
           {/* Product 1 */}
           <div className="border rounded-md p-4 shadow-md text-center">
             <img
-              src="/fp-4.png"
+              src="/latest-3.png"
               alt="Product 1"
               className="w-full h-48 md:h-60 object-contain bg-gray-100 mb-3"
             />
