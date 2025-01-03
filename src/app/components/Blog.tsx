@@ -7,7 +7,7 @@ function Blog() {
     return (
         <div>
            <section className="text-gray-600 body-font wrapper">
-  <div className="container px-5 py-24 mx-auto">
+  <div className="container px-5 py-12 mx-auto">
     <div className="flex flex-col">
       <div className="h-1  rounded overflow-hidden">
         <div className="w-24 h-full" />
