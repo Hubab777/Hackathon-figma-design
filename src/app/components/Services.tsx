@@ -18,7 +18,7 @@ function Services() {
 
       {/* Services Boxes */}
       <div className="w-full flex justify-center items-center wrapper">
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 w-full lg:w-[80%] mt-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 w-full lg:w-[80%] mt-8 mb-8">
           {/* Box1 */}
           <div className="flex flex-col items-center text-center p-4 bg-white shadow-md rounded-md">
             <div className="w-[60px] h-[60px] rounded-full bg-black flex justify-center items-center border-stone-400 border-8">
