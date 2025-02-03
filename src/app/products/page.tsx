@@ -1,8 +1,8 @@
-import FeaturedProducts from '../components/FeaturedProducts';
+"use client"
+import ProductDetails from '../components/ProductDetails';
 
-
-const ProductsPage = () => {
-  return <FeaturedProducts />;
+const ProductsDetailPage = () => {
+  return <ProductDetails />;
 }
 
-export default ProductsPage;
+export default ProductsDetailPage;
