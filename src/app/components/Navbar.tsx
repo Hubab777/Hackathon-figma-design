@@ -4,13 +4,15 @@ import { CiSearch } from "react-icons/ci";
 import Link from "next/link";
 import { useState } from "react";
 
-function Navbar2() {
+function Navbar1() {
   const [open, setOpen] = useState(false); // State for mobile menu toggle
   const [pagesOpen, setPagesOpen] = useState(false); // State for "Pages" dropdown
-
+  const [shopOpen, setShopOpen] = useState(false); // State for "Shop" dropdown
+  
   const toggle = () => setOpen(!open);
   const togglePages = () => setPagesOpen(!pagesOpen);
-
+  const toggleShop = () => setShopOpen(!shopOpen); // Toggle function for Shop dropdown
+  
   return (
     <main className="2xl:w-[1920px] w-[100%] border-b-2 bg-neutral-100 wrapper">
       <div className="flex items-center justify-center bg-white h-[70px]">
@@ -61,14 +63,44 @@ function Navbar2() {
               </li>
 
               <li className="p-4 text-[#0D0E43] hover:underline hover:text-[#FB2E86] underline-offset-4">
-                <Link href="/products">Products</Link>
-              </li>
+               <Link href="/products">Products</Link>
+               </li>
+
+
               <li className="p-4 text-[#0D0E43] hover:underline hover:text-[#FB2E86] underline-offset-4">
                 <Link href="/blog">Blog</Link>
               </li>
-              <li className="p-4 text-[#0D0E43] hover:underline hover:text-[#FB2E86] underline-offset-4">
-                <Link href="/shop">Shop</Link>
+
+              {/* Shop Dropdown */}
+              <li className="relative group">
+                <button
+                  onClick={toggleShop}
+                  className="p-4 text-[#0D0E43] hover:underline hover:text-[#FB2E86] underline-offset-4 focus:outline-none flex items-center"
+                >
+                  Shop
+                  <span className="ml-1">▼</span>
+                </button>
+
+                {/* Shop Dropdown Menu */}
+                <div
+                  className={`${
+                    shopOpen ? "block" : "hidden"
+                  } absolute left-0 top-12 bg-white shadow-md rounded-md w-[200px] text-left z-50`}
+                >
+                  <ul className="text-sm">
+                    <li className="p-2 hover:bg-gray-200">
+                      <Link href="/shop-list">ShopList</Link>
+                    </li>
+                    <li className="p-2 hover:bg-gray-200">
+                      <Link href="/shop-grid">ShopGrid</Link>
+                    </li>
+                    <li className="p-2 hover:bg-gray-200">
+                      <Link href="/shop-cart">Shopping Cart</Link>
+                    </li>
+                  </ul>
+                </div>
               </li>
+
               <li className="p-4 text-[#0D0E43] hover:underline hover:text-[#FB2E86] underline-offset-4">
                 <Link href="/contact">Contact</Link>
               </li>
@@ -100,4 +132,4 @@ function Navbar2() {
   );
 }
 
-export default Navbar2;
+export default Navbar1;
